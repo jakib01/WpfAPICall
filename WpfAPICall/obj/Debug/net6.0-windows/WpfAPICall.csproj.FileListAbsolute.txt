@@ -1,0 +1,36 @@
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\WpfAPICall.exe
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\WpfAPICall.deps.json
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\WpfAPICall.runtimeconfig.json
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\WpfAPICall.dll
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\WpfAPICall.pdb
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.csproj.AssemblyReference.cache
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\MainWindow.g.cs
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\App.g.cs
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall_MarkupCompile.cache
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall_MarkupCompile.lref
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\MainWindow.baml
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.g.resources
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.GeneratedMSBuildEditorConfig.editorconfig
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.AssemblyInfoInputs.cache
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.AssemblyInfo.cs
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.csproj.CoreCompileInputs.cache
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.dll
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\refint\WpfAPICall.dll
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.pdb
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.genruntimeconfig.cache
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\ref\WpfAPICall.dll
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.csproj.CopyComplete
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.csproj.AssemblyReference.cache
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall_MarkupCompile.cache
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall_MarkupCompile.lref
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.g.resources
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.AssemblyInfoInputs.cache
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.AssemblyInfo.cs
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.csproj.CoreCompileInputs.cache
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\refint\WpfAPICall.dll
+C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.pdb

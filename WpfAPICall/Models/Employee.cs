@@ -1,4 +1,5 @@
-﻿using System;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,24 +7,35 @@ using System.Threading.Tasks;
 
 namespace WpfAPICall.Models
 {
-    public class employee
+
+    public class Datum
     {
-        public List<Employee> Employee { get; set; }
+        [JsonProperty("id")]
+        public int Id;
+
+        [JsonProperty("employee_name")]
+        public string? EmployeeName;
+
+        [JsonProperty("employee_salary")]
+        public int? EmployeeSalary;
+
+        [JsonProperty("employee_age")]
+        public int? EmployeeAge;
+
+        [JsonProperty("profile_image")]
+        public string? ProfileImage;
     }
 
-    public class Employee
+    public class Root
     {
-        //public int Id { get; set; }
-        //public string? Name { get; set; }
-        //public string? Salary { get; set; }
-        //public string? Age { get; set; }
+        [JsonProperty("status")]
+        public string? Status;
 
+        [JsonProperty("data")]
+        public List<Datum> Data;
 
-        public int Id { get; set; }
-        public string? employee_name { get; set; }
-        public string? employee_salary { get; set; }
-        public string? employee_age { get; set; }
-        public string? profile_image { get; set; }
-
+        [JsonProperty("message")]
+        public string? Message;
     }
+
 }

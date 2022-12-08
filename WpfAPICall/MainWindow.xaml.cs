@@ -68,7 +68,7 @@ namespace WpfAPICall
                     }
                     System.IO.File.WriteAllText(@"D:\string.txt", sb.ToString());
                     //Root fromCsvJson = JsonConvert.DeserializeObject<Root>(sb.ToString());
-
+                    lvUsers1.ItemsSource = sb.ToString();
                     //using (var reader = new StreamReader(@"D:\data.csv"))
                     //{
                     //    List<string> listA = new List<string>();

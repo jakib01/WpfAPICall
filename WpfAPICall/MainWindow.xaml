@@ -1,4 +1,4 @@
-﻿<Window x:Class="WpfAPICall.MainWindow"
+<Window x:Class="WpfAPICall.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -26,18 +26,30 @@
         </StackPanel>
 
         <StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="138,78,1,0" Height="555">
-            <ListView HorizontalAlignment="Center" Height="195" Margin="0,10,0,0" Width="864" ItemsSource="{Binding dt}" SelectionChanged="ListView_SelectionChanged">
+            <ListView HorizontalAlignment="Center" Height="195" Margin="0,10,0,0" Width="860" SelectionChanged="ListView_SelectionChanged" Name="lvUsers">
                 <ListView.View>
                     <GridView x:Name="GridView1">
-                        <GridViewColumn DisplayMemberBinding= "{Binding Path=Sl}" Header="#" Width="30"/>
-                        <GridViewColumn DisplayMemberBinding= "{Binding Path=Name}" Header="Name" Width="320"/>
-                        <GridViewColumn DisplayMemberBinding= "{Binding Path=Salary}" Header="Salary" Width="270"/>
-                        <GridViewColumn DisplayMemberBinding= "{Binding Path=Age}" Header="Age" Width="250"/>
+                        <GridViewColumn DisplayMemberBinding= "{Binding Path=id}" Header="#" Width="30"/>
+                        <GridViewColumn DisplayMemberBinding= "{Binding Path=employee_name}" Header="Name" Width="320"/>
+                        <GridViewColumn DisplayMemberBinding= "{Binding Path=employee_salary}" Header="Salary" Width="270"/>
+                        <GridViewColumn DisplayMemberBinding= "{Binding Path=employee_age}" Header="Age" Width="210"/>
                     </GridView>
                 </ListView.View>
+                <!--<DataGrid Height="100" Width="100" d:ItemsSource="{d:SampleData ItemCount=5}"/>-->
+            </ListView>
+
+            <ListView HorizontalAlignment="Center" Height="195" Margin="0,10,0,0" Width="860" SelectionChanged="ListView_SelectionChanged2" Name="lvUsers1">
+                <ListView.View>
+                    <GridView x:Name="GridView2">
+                        <GridViewColumn DisplayMemberBinding= "{Binding Path=id}" Header="#" Width="30"/>
+                        <GridViewColumn DisplayMemberBinding= "{Binding Path=employee_name}" Header="Name" Width="320"/>
+                        <GridViewColumn DisplayMemberBinding= "{Binding Path=employee_salary}" Header="Salary" Width="270"/>
+                        <GridViewColumn DisplayMemberBinding= "{Binding Path=employee_age}" Header="Age" Width="210"/>
+                    </GridView>
+                </ListView.View>
+                <!--<DataGrid Height="100" Width="100" d:ItemsSource="{d:SampleData ItemCount=5}"/>-->
             </ListView>
         </StackPanel>
-
         <!--<StackPanel Orientation="Vertical" VerticalAlignment="Center">
             <Button FontSize="26" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Click Me!" Click="Button_Click"></Button>
             <Label Name="massage" Content="Server side massage here" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>

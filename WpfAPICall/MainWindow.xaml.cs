@@ -1,3 +1,4 @@
+
 using ChoETL;
 using Microsoft.VisualBasic.FileIO;
 using Newtonsoft.Json;
@@ -53,57 +54,43 @@ namespace WpfAPICall
 
                     ExportData.ExportCsv(myDeserializedJson.data, "data");
 
+
                     var csv = new List<string[]>();
-                    string[] lines = File.ReadAllLines(@"D:\data.csv");
-                    string str = "";
-                    foreach (string s in lines)
+                    var lines = System.IO.File.ReadAllLines(@"D:data.csv"); // csv file location
+
+                    // loop through all lines and add it in list as string
+                    foreach (string line in lines)
+                        csv.Add(line.Split(','));
+
+                    //split string to get first line, header line as JSON properties
+                    var properties = lines[0].Split(',');
+
+                    var listObjResult = new List<Dictionary<string, string>>();
+
+                    //loop all remaining lines, except header so starting it from 1
+                    // instead of 0
+                    for (int i = 1; i < lines.Length; i++)
                     {
-                        str = str + s + "\n";
+                        var objResult = new Dictionary<string, string>();
+                        for (int j = 0; j < properties.Length; j++)
+                            objResult.Add(properties[j], csv[i][j]);
+
+                        listObjResult.Add(objResult);
                     }
 
-                    StringBuilder sb = new StringBuilder();
-                    using (var p = ChoCSVReader.LoadText(str).WithFirstLineHeader())
+                    var collectionWrapper = new
                     {
-                        using (var w = new ChoJSONWriter(sb))w.Write(p);
-                    }
-                    System.IO.File.WriteAllText(@"D:\string.txt", sb.ToString());
-                    //Root fromCsvJson = JsonConvert.DeserializeObject<Root>(sb.ToString());
-                    lvUsers1.ItemsSource = sb.ToString();
-                    //using (var reader = new StreamReader(@"D:\data.csv"))
-                    //{
-                    //    List<string> listA = new List<string>();
-                    //    while (!reader.EndOfStream)
-                    //    {
-                    //        var line = reader.ReadLine();
-                    //        var values = line.Split(',');
 
-                    //        listA.Add(values[0]);
-                    //    }
-                    //}
+                        data = listObjResult
 
-                    //using (TextFieldParser parser = new TextFieldParser(@"D:\data.csv"))
-                    //{
-                    //    parser.TextFieldType = FieldType.Delimited;
-                    //    parser.SetDelimiters(",");
-                    //    while (!parser.EndOfData)
-                    //    {
-                    //        //Process row
-                    //        string[] fields = parser.ReadFields();
-                    //        foreach (string field in fields)
-                    //        {
-                    //        }
-                    //    }
-                    //}
+                    };
 
+                    // convert dictionary into JSON
+                    var json = JsonConvert.SerializeObject(collectionWrapper);
 
-                    //foreach (var item in myDeserializedJson.data)
-                    //{
-                    //    Console.WriteLine("id: {0}, name: {1}, salary: {2}", item.id, item.employee_name, item.employee_salary);
-                    //}
+                    Root1 myDeserializedClass = JsonConvert.DeserializeObject<Root1>(json);
 
-                    //write string to file
-                    //System.IO.File.WriteAllText(@"D:\path.csv", await response.Content.ReadAsStringAsync());
-                    //massage.Content = "Success";
+                    lvUsers1.ItemsSource = myDeserializedClass.data;
                 }
                 else
                 {
@@ -122,7 +109,7 @@ namespace WpfAPICall
         {
 
         }
-        
+
         private void ListView_SelectionChanged2(object sender, SelectionChangedEventArgs e)
         {
 
@@ -182,6 +169,29 @@ namespace WpfAPICall
             public string status { get; set; }
             public List<Datum> data { get; set; }
             public string message { get; set; }
+        }
+
+        
+        public class Datum1
+        {
+            public string id { get; set; }
+
+            [JsonProperty(" employee_name")]
+            public string employee_name { get; set; }
+
+            [JsonProperty(" employee_salary")]
+            public string employee_salary { get; set; }
+
+            [JsonProperty(" employee_age")]
+            public string employee_age { get; set; }
+
+            [JsonProperty(" profile_image")]
+            public string profile_image { get; set; }
+        }
+
+        public class Root1
+        {
+            public List<Datum1> data { get; set; }
         }
 
     }

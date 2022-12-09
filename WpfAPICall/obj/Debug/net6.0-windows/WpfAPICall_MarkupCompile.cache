@@ -5,16 +5,16 @@ winexe
 C#
 .cs
 C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\
-WpfAPICall_gmwbcc5g_wpftmp
+WpfAPICall
 none
 false
-TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\App.xaml
 11407045341
 
-6-1416157472
-3901491438478
+4-1587762602
+198-1043520796
 MainWindow.xaml;
 
-True
+False
 

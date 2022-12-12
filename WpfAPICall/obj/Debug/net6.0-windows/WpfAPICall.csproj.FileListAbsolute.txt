@@ -52,3 +52,44 @@ C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows
 C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.pdb
 C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.genruntimeconfig.cache
 C:\Users\Julker Nien Akib\Desktop\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\ref\WpfAPICall.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\WpfAPICall.exe
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\WpfAPICall.deps.json
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\WpfAPICall.runtimeconfig.json
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\WpfAPICall.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\WpfAPICall.pdb
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\ChoETL.JSON.Core.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\ChoETL.Core.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.csproj.AssemblyReference.cache
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall_MarkupCompile.cache
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall_MarkupCompile.lref
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.g.resources
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.AssemblyInfoInputs.cache
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.AssemblyInfo.cs
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.csproj.CoreCompileInputs.cache
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.csproj.CopyComplete
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\refint\WpfAPICall.dll
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.pdb
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\WpfAPICall.genruntimeconfig.cache
+C:\Users\dmana\Downloads\Compressed\WpfAPICall-master\WpfAPICall\obj\Debug\net6.0-windows\ref\WpfAPICall.dll
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\ChoETL.JSON.Core.dll
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\ChoETL.Core.dll
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+G:\Akib\WpfAPICall\WpfAPICall\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\Window1.g.cs
+G:\Akib\WpfAPICall\WpfAPICall\obj\Debug\net6.0-windows\Window1.baml

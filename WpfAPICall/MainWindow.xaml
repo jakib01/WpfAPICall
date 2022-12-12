@@ -54,7 +54,7 @@
             <Button FontSize="26" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Click Me!" Click="Button_Click"></Button>
             <Label Name="massage" Content="Server side massage here" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>
         </StackPanel>-->
-
+        
     </Grid>
 
 </Window>
